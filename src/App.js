@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ContactCard from "./ContactCard";
+import Decrement from './Decrement';
 
 class App extends Component{
   render(){
@@ -24,7 +25,12 @@ class App extends Component{
           mobile="7420259953"
           email="sam@work.com"
         />                
+
+        <Decrement
+          start={5}
+        />
       </div>
+    
     );
   }
 }
